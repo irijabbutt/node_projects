@@ -1,3 +1,4 @@
+#! /usr/bin/env mode
 import { questions, sum, subtract, multiply, divide } from "./input.js";
 function check() {
     if (questions.operator == "+") {
