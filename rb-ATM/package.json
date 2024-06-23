@@ -1,0 +1,28 @@
+{
+  "name": "rb-atm",
+  "version": "1.0.0",
+  "description": "all transaction operations perform.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "rb-ATM": "atm.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\\node-projects"
+  },
+  "author": "Rijab Butt",
+  "license": "ISC",
+    "dependencies": {
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "inquirer": "^9.2.23",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
